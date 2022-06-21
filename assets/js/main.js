@@ -5,32 +5,12 @@
 			$(".owl-carousel").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					margin: 0,
-					autoplayTimeout: $(this).data("autotime"),
-					smartSpeed: $(this).data("speed"),
-					autoHeight: $(this).data("autoheight"),
-					autoplay: $(this).data("autoplay"),
-					items: $(this).data("carousel-items"),
-					nav: $(this).data("nav"),
-					dots: $(this).data("dots"),
-					center: $(this).data("center"),
-					loop: $(this).data("loop"),
-
-					responsive: {
-						0: {
-							items: $(this).data("mobile"),
-							autoplay:true
-						},
-						768: {
-							items: $(this).data("tablet"),
-						},
-						992: {
-							items: $(this).data("desktop-small"),
-						},
-						1680: {
-							items: $(this).data("desktop"),
-						},
-					},
+					items:1,
+					loop:true,
+					margin:10,
+					autoplay:true,
+					autoplayTimeout:4000,
+					autoplayHoverPause:true
 				});
 			});
 		}
