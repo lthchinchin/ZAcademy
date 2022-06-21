@@ -12,7 +12,7 @@
 
 a {
   text-decoration: none;
-  color: #001A13;
+  color: #190900;
   transition: 0.3s; }
   a:hover {
     color: #E45600; }
@@ -20,7 +20,7 @@ a {
 p,
 li {
   font-size: 16px;
-  color: #3C3C3C; }
+  color: #474747; }
 
 img {
   width: 100%;
@@ -30,7 +30,7 @@ img {
 
 body {
   background: white;
-  color: #001A13;
+  color: #190900;
   font-family: Helvetica;
   font-size: 18px;
   font-weight: normal;
@@ -97,6 +97,10 @@ body {
   @media (max-width: 991.98px) {
     .btn-cus {
       padding: 8px 24px; } }
+
+.line-spac {
+  width: 1px;
+  background-color: #000; }
 
 .owl-nav {
   display: flex;
@@ -205,14 +209,14 @@ body {
     transition: .5s ease; }
     .product-item .content h3 {
       height: 43px;
-      color: #001A13;
+      color: #190900;
       font-size: 18px;
       font-weight: 600;
       transition: 0.3s;
       margin-bottom: 7px;
       text-transform: uppercase; }
     .product-item .content p {
-      color: #3C3C3C; }
+      color: #474747; }
     .product-item .content .desc {
       color: #888888;
       margin-bottom: 0;
@@ -221,7 +225,7 @@ body {
       color: #888;
       margin-bottom: 6px; }
   .product-item .more-detail {
-    color: #001A13; }
+    color: #190900; }
   .product-item:hover .img::after {
     opacity: 1; }
   .product-item:hover .content {
@@ -379,23 +383,20 @@ section {
     padding: 32px 0; } }
 
 .header-top {
-  background: #E45600;
-  padding: 3px 0; }
+  background: #F0F0F4;
+  padding: 14px 0; }
   .header-top-wrap {
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between; }
     .header-top-wrap .company {
-      font-size: 14px; }
+      font-weight: 600;
+      font-size: 16px; }
     .header-top-wrap .contact {
       display: flex;
       align-items: center;
       font-size: 13px;
       color: #ff731c; }
-      .header-top-wrap .contact a,
-      .header-top-wrap .contact span {
-        color: #fff; }
       .header-top-wrap .contact a:hover {
         color: #ff731c; }
       .header-top-wrap .contact .icon-box {
@@ -423,8 +424,8 @@ section {
     .header-top-wrap .social > li {
       margin: 0 10px; }
       .header-top-wrap .social > li > a {
-        font-size: 14px;
-        color: #fff; }
+        font-size: 16px;
+        font-weight: 600; }
         .header-top-wrap .social > li > a:hover {
           color: #ff731c; }
         .header-top-wrap .social > li > a i {
@@ -442,6 +443,7 @@ section {
       width: 150px; }
   .header-bottom-wrap .search-bar input {
     width: 600px;
+    height: 48px;
     background-color: #F9F9F9;
     border-radius: 25px;
     padding-left: 50px;
@@ -497,7 +499,7 @@ section {
       color: #EF9700; }
 
 .header-underbottom {
-  background-color: #EF9700; }
+  background-color: #E45600; }
   @media (max-width: 991.98px) {
     .header-underbottom {
       position: fixed;
@@ -555,7 +557,7 @@ section {
           .header-underbottom ul li .nav-dropdown li a {
             font-size: 15px;
             text-align: center;
-            color: #3C3C3C !important; }
+            color: #474747 !important; }
           .header-underbottom ul li .nav-dropdown li:hover {
             color: #E45600; }
       .header-underbottom ul li:hover .dropdown-menu {
@@ -564,7 +566,7 @@ section {
           padding: 16px 0;
           margin: 0; }
           .header-underbottom ul li:hover .dropdown-menu li a {
-            color: #3C3C3C; }
+            color: #474747; }
             .header-underbottom ul li:hover .dropdown-menu li a:hover {
               color: #E45600; }
               .header-underbottom ul li:hover .dropdown-menu li a:hover::after {
@@ -693,18 +695,14 @@ li#mega-menu-item-media_image-4 {
   font-size: 14px; }
 
 .footer-main {
-  padding: 30px 0;
-  background-image: url("../images/Footer-bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
+  padding: 60px 0;
+  background: #F0F0F4; }
   .footer-main * {
-    color: #fff !important; }
+    color: #E45600 !important; }
   .footer-main .footer-logo {
     padding-bottom: 24px;
-    border-bottom: 1px solid #fff;
     margin-bottom: 48px; }
     .footer-main .footer-logo img {
-      width: 320px;
       display: block;
       margin: 0 auto; }
 
@@ -733,7 +731,7 @@ li#mega-menu-item-media_image-4 {
       color: #EF9700; }
 
 .footer-copyright {
-  background: #001A13;
+  background: #190900;
   color: #fff;
   padding: 8px 0; }
   .footer-copyright span {

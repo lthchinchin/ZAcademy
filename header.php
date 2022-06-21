@@ -30,9 +30,11 @@
                                 <li>
                                     <a href="#">Đăng nhập</a>
                                 </li>
+                                <li class="line-spac"></li>
                                 <li>
                                     <a href="#">Đăng kí</a>
                                 </li>
+                                <li class="line-spac"></li>
                                 <li>
                                     <a href="#">Góp ý</a>
                                 </li>
@@ -43,72 +45,65 @@
             </div>
             <div class="header-bottom">
                 <div class="container">
-                <div class="header-bottom-wrap">
-                            <div class="logo">
-                                <a href="<?php echo get_home_url(); ?>">
-                                    <img src="<?php echo esc_html(get_theme_mod('html_logo_header')); ?>" alt="logo">
-                                </a>
-                            </div>
-                            <div class="search-bar d-xl-block d-none">
-                                <div class="position-relative">
-                                    <form action="<?php echo home_url(); ?>" method="get" id="hv-search-form">
-                                        <input name="s" placeholder="Nhập gì đó để tìm kiếm..." class="form-control"> <button type="submit" class="btn position-absolute top-50 translate-middle-y"><i class="far fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                            <ul class="benefit list-unstyled mb-0">
-                                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-                                    <a href="#">
-                                    <div class="icon d-flex align-items-center">
-                                        <i class="fas fa-file-certificate me-3 fs-1"></i>
-                                            <div>Khóa học<br> của tôi</div>
-                                        </div>
-                                    </a>
-                                </li>
-
-                            </ul>
-                            <div class="headernav">
-                                <div class="hbg-menu">
-                                    <a id="mobile-menu-button" href="javascript:;"></a>
-                                </div>
+                    <div class="header-bottom-wrap">
+                        <div class="logo">
+                            <a href="<?php echo get_home_url(); ?>">
+                                <img src="<?php echo esc_html(get_theme_mod('html_logo_header')); ?>" alt="logo">
+                            </a>
+                        </div>
+                        <div class="search-bar d-xl-block d-none">
+                            <div class="position-relative">
+                                <form action="<?php echo home_url(); ?>" method="get" id="hv-search-form">
+                                    <input name="s" placeholder="Nhập gì đó để tìm kiếm..." class="form-control"> <button type="submit" class="btn main-co position-absolute top-50 translate-middle-y"><i class="far fa-search"></i></button>
+                                </form>
                             </div>
                         </div>
+                        <ul class="benefit list-unstyled mb-0">
+                            <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+                                <a href="#">
+                                    <div class="icon d-flex align-items-center">
+                                        <i class="fas fa-file-certificate me-3 fs-1"></i>
+                                        <div>Khóa học<br> của tôi</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="headernav">
+                            <div class="hbg-menu">
+                                <a id="mobile-menu-button" href="javascript:;"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="header-underbottom d-none d-xl-block">
                 <div class="container">
-                    <div class="row">
-                        <div class="d-flex justify-content-center">
-                            <nav>
-                                <?php
-                                $primarymenu = array(
-                                    'theme_location'  => 'primary',
-                                    'menu'            => '',
-                                    'container'       => '',
-                                    'container_class' => '',
-                                    'container_id'    => '',
-                                    'menu_class'      => 'slimmenu',
-                                    'menu_id'         => 'primary-menu',
-                                    'echo'            => true,
-                                    'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                                    'walker'          => new wp_bootstrap_navwalker(),
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'items_wrap'      => '<ul data-breakpoint="800" id="%1$s" class="d-xl-flex d-none list-unstyled mb-0">%3$s</ul>',
-                                    'depth'           => 0,
-                                );
-                                if (has_nav_menu('primary')) {
-                                    wp_nav_menu($primarymenu);
-                                }
-                                ?>
-                            </nav>
-                            <div class="">
 
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                    $primarymenu = array(
+                        'theme_location'  => 'primary',
+                        'menu'            => '',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'menu_class'      => 'slimmenu',
+                        'menu_id'         => 'primary-menu',
+                        'echo'            => true,
+                        'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                        'walker'          => new wp_bootstrap_navwalker(),
+                        'before'          => '',
+                        'after'           => '',
+                        'link_before'     => '',
+                        'link_after'      => '',
+                        'items_wrap'      => '<ul data-breakpoint="800" id="%1$s" class="d-xl-flex d-none list-unstyled mb-0">%3$s</ul>',
+                        'depth'           => 0,
+                    );
+                    if (has_nav_menu('primary')) {
+                        wp_nav_menu($primarymenu);
+                    }
+                    ?>
+
                 </div>
             </div>
             <div class="header-menu">

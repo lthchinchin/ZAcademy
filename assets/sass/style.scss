@@ -2,8 +2,8 @@ $main-color: #E45600;
 $hover-color: #ff731c;
 $sub-color: #EF9700;
 $lightgray-color: #F0F0F4;
-$text-color: #3C3C3C;
-$text-dark-color: #001A13;
+$text-color: #474747;
+$text-dark-color: #190900;
 
 // @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 @font-face {
@@ -146,6 +146,11 @@ body {
         padding: 8px 24px;
     }
 
+}
+
+.line-spac{
+    width: 1px;
+    background-color: #000;
 }
 
 .owl-nav {
