@@ -9,10 +9,9 @@
                     <div class="row g-4">
                         <div class="col-6">
                             <div class="group">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group.png"
-                                    alt="Group Khóa học">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group.png" alt="Group Khóa học">
                                 <a class="d-flex justify-content-center align-items-center" href="fb.com">
-                                    <span>Tài liệu miễn phí</span>
+                                    <span>Tài liệu miễn phí mới</span>
                                     <div class="d-flex justify-content-center align-items-center circle">
                                         <i class="fas fa-chevron-double-right"></i>
                                     </div>
@@ -21,8 +20,7 @@
                         </div>
                         <div class="col-6">
                             <div class="group">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group.png"
-                                    alt="Group Khóa học">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group.png" alt="Group Khóa học">
                                 <a class="d-flex justify-content-center align-items-center" href="fb.com">
                                     <span>Tài liệu miễn phí</span>
                                     <div class="d-flex justify-content-center align-items-center circle">
@@ -34,16 +32,13 @@
                         <div class="col-12">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png"
-                                        alt="Slide Khóa học">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png" alt="Slide Khóa học">
                                 </div>
                                 <div class="item">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png"
-                                        alt="Slide Khóa học">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png" alt="Slide Khóa học">
                                 </div>
                                 <div class="item">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png"
-                                        alt="Slide Khóa học">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group1.png" alt="Slide Khóa học">
                                 </div>
                             </div>
                         </div>
@@ -85,16 +80,7 @@
 
                         <div class="col-4">
                             <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
-                                <div class="text-center course_name">
-                                    Khóa học 1
-                                </div>
-                            </div>
-                        </div>  <div class="col-4">
-                            <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
                                 <div class="text-center course_name">
                                     Khóa học 1
                                 </div>
@@ -102,8 +88,7 @@
                         </div>
                         <div class="col-4">
                             <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
                                 <div class="text-center course_name">
                                     Khóa học 1
                                 </div>
@@ -111,8 +96,15 @@
                         </div>
                         <div class="col-4">
                             <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
+                                <div class="text-center course_name">
+                                    Khóa học 1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="course">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
                                 <div class="text-center course_name">
                                     Khóa học 1
                                 </div>
@@ -132,4 +124,3 @@
 </main>
 
 <?php get_footer(); ?>
-
