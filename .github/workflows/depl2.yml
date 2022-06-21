@@ -17,5 +17,6 @@ jobs:
         server: 139.99.99.156
         username: admin_ZAcademy_github@devweb5s.site
         password: Letrunghieu_99
+        server-dir: /wp-content/themes/khoahoc
 
 
