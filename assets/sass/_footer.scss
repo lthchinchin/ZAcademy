@@ -1,22 +1,22 @@
 .footer {
     &-main {
-        padding: 30px 0;
-        // background: #f4f7f7;
-        background-image: url("../images/Footer-bg.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+        padding: 60px 0;
+        background: $lightgray-color;
+        // background-image: url("../images/Footer-bg.jpg");
+        // background-size: cover;
+        // background-repeat: no-repeat;
 
         * {
-            color: #fff !important;
+            color: $main-color  !important;
         }
 
         .footer-logo {
             padding-bottom: 24px;
-            border-bottom: 1px solid #fff;
+            // border-bottom: 1px solid #fff;
             margin-bottom: 48px;
 
             img {
-                width: 320px;
+                // width: 320px;
                 display: block;
                 margin: 0 auto;
             }

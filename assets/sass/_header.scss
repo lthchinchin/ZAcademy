@@ -1,18 +1,18 @@
 .header {
     &-top {
-        background: $main-color;
-        padding: 3px 0;
+        background: $lightgray-color;
+        padding: 14px 0;
 
         &-wrap {
-            color: #fff;
+            // color: #fff;
             display: flex;
             align-items: center;
             justify-content: space-between;
 
 
             .company {
-                // font-weight: 600;
-                font-size: 14px;
+                font-weight: 600;
+                font-size: 16px;
             }
 
             .contact {
@@ -23,7 +23,7 @@
 
                 a,
                 span {
-                    color: #fff;
+                    // color: #fff;
                 }
 
                 a:hover {
@@ -74,8 +74,9 @@
                     margin: 0 10px;
 
                     >a {
-                        font-size: 14px;
-                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 600;
+                        // color: #fff;
 
                         &:hover {
                             color: $hover-color;
@@ -123,6 +124,7 @@
             .search-bar {
                 input {
                     width: 600px;
+                    height: 48px;
                     background-color: #F9F9F9;
                     border-radius: 25px;
                     padding-left: 50px;
@@ -235,7 +237,7 @@
     }
 
     &-underbottom {
-        background-color: $sub-color;
+        background-color: $main-color;
 
         @media (max-width: 991.98px) {
             position: fixed;
