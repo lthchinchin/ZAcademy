@@ -76,12 +76,10 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-9">
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="title">
-                                <div class="title_with_tag">
-                                    Các khóa học tại HocvienZ.edu.vn
-                                </div>
+                    <div class="row g-3">
+                        <div class="title">
+                            <div class="title_with_tag">
+                                Các khóa học tại HocvienZ.edu.vn
                             </div>
                         </div>
 
@@ -134,3 +132,4 @@
 </main>
 
 <?php get_footer(); ?>
+

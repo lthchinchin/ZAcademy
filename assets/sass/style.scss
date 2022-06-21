@@ -5,6 +5,7 @@ $lightgray-color: #f0f0f4;
 $text-color: #3c3c3c;
 $text-dark-color: #001a13;
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -18,20 +19,50 @@ ul {
 	padding: 0;
 	margin: 0;
 }
-
+img {
+	width: 100%;
+	height: auto;
+}
+input {
+	&:focus {
+		outline: none;
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+}
+body {
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+    font-weight: 400px;
+	color: #000;
+}
 .title_with_tag {
 	position: relative;
-	line-height: 0px;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1;
+	padding-left: 64px;
+	padding-bottom: 12px;
+
 	&::before {
 		content: "";
 		position: absolute;
-		height: 5px;
-		width: 100px;
 		background: linear-gradient(
 			90deg,
 			rgba(228, 86, 0, 1) 0%,
 			rgba(251, 220, 1, 1) 100%
 		);
+		bottom: 0;
+		left: 15px;
+		height: 5px;
+		width: calc(100% - 15px);
 	}
 	&::after {
 		content: url("../images/tagtitle.png");
