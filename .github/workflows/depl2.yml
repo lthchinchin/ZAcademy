@@ -11,6 +11,12 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
     
+    - name: Compile CSS from SCSS files
+      uses: gha-utilities/sass-build@v0.4.7
+      with:
+        source: assets/sass/style.scss
+        destination: assets/css/style.css
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
