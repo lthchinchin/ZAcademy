@@ -9,12 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2        
-
-    - name: Add and Commit changes to main branch
-      run: |
-        git add assets/css/*
-        git commit -m 'Updates compiled CSS files'
+      uses: actions/checkout@v2
 
     - name: 📂 Sync files
       uses: on@4SamKirkland/FTP-Deploy-Acti.3.0
