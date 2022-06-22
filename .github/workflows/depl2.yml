@@ -10,12 +10,11 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+    
     - name: 📂 Sync files
-      uses: on@4SamKirkland/FTP-Deploy-Acti.3.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: 139.99.99.156
         username: admin_ZAcademy_github@devweb5s.site
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /wp-content/themes/khoahoc/
-
-
