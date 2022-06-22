@@ -14,9 +14,15 @@ jobs:
     - name: Compile CSS from SCSS files
       uses: gha-utilities/sass-build@v0.4.9
       with:
-        source: ./assets/sass/style.scss
-        destination: ./assets/css/style.css
+        source: assets/sass/style.scss
+        destination: assets/css/style.css
         
+
+    - name: Add and Commit changes to main branch
+      run: |
+        git add assets/css/*
+        git commit -m 'Updates compiled CSS files'
+
     - name: 📂 Sync files
       uses: on@4SamKirkland/FTP-Deploy-Acti.3.0
       with:
