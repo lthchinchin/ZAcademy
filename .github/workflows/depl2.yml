@@ -9,14 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-
-    - name: Compile CSS from SCSS files
-      uses: gha-utilities/sass-build@v0.4.7
-      with:
-        source: assets/sass/style.scss
-        destination: assets/css/style.css
-        
+      uses: actions/checkout@v2        
 
     - name: Add and Commit changes to main branch
       run: |
