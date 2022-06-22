@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
-
     - name: 📂 Sync files
       uses: on@4SamKirkland/FTP-Deploy-Acti.3.0
       with:
