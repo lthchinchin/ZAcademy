@@ -12,10 +12,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Compile CSS from SCSS files
-        uses: gha-utilities/sass-build@v0.4.9
-        with:
-          source: assets/sass/style.scss
-          destination: assets/css/style.css
+      uses: gha-utilities/sass-build@v0.4.9
+      with:
+        source: assets/sass/style.scss
+        destination: assets/css/style.css
     
     - name: 📂 Sync files
       uses: on@4SamKirkland/FTP-Deploy-Acti.3.0
