@@ -1,11 +1,11 @@
 $main-color: #e45600;
 $hover-color: #ff731c;
-$sub-color: #EF9700;
-$lightgray-color: #F0F0F4;
+$sub-color: #ef9700;
+$lightgray-color: #f0f0f4;
 $text-color: #474747;
 $text-dark-color: #190900;
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
 
 * {
 	margin: 0;
@@ -15,6 +15,10 @@ $text-dark-color: #190900;
 
 a {
 	text-decoration: none;
+	color: unset;
+	&:hover{
+		color: unset;
+	}
 }
 
 ul {
@@ -32,83 +36,84 @@ input {
 	&:focus {
 		outline: none;
 	}
+}
+.line-spac {
+	width: 1px;
+	background-color: #000;
+}
 
-	.line-spac {
-		width: 1px;
-		background-color: #000;
-	}
+.owl-nav {
+	display: flex;
+	justify-content: end;
+	align-items: center;
 
-	.owl-nav {
-		display: flex;
-		justify-content: end;
-		align-items: center;
+	button {
+		background-color: #fff !important;
+		width: 40px;
+		height: 40px;
+		color: #000 !important;
+		border-radius: 50%;
+		margin-left: 24px;
 
-		button {
-			background-color: #fff !important;
-			width: 40px;
-			height: 40px;
-			color: #000 !important;
-			border-radius: 50%;
+		&:hover {
+			width: 50px;
+			height: 50px;
+			color: #fff !important;
+			background-color: $sub-color !important;
 			margin-left: 24px;
-
-			&:hover {
-				width: 50px;
-				height: 50px;
-				color: #fff !important;
-				background-color: $sub-color  !important;
-				margin-left: 24px;
-			}
-
-			span {
-				font-size: 14px;
-			}
-		}
-	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-weight: 600;
-	}
-
-	body {
-		font-family: 'Cabin', sans-serif;
-		font-size: 14px;
-		font-style: normal;
-		font-weight: 400px;
-		color: #000;
-	}
-
-	.title_with_tag {
-		position: relative;
-		font-size: 32px;
-		font-weight: 600;
-		line-height: 1;
-		padding-left: 64px;
-		padding-bottom: 12px;
-
-		&::before {
-			content: "";
-			position: absolute;
-			background: linear-gradient(90deg,
-					rgba(228, 86, 0, 1) 0%,
-					rgba(251, 220, 1, 1) 100%);
-			bottom: 0;
-			left: 15px;
-			height: 5px;
-			width: calc(100% - 15px);
 		}
 
-		&::after {
-			content: url("../images/tagtitle.png");
-			position: absolute;
-			left: 0;
-			top: 50%;
-			transform: translate(0, -50%);
+		span {
+			font-size: 14px;
 		}
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+}
+
+body {
+	font-family: "Cabin", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400px;
+	color: #000;
+}
+
+.title_with_tag {
+	position: relative;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1;
+	padding-left: 64px;
+	padding-bottom: 12px;
+
+	&::before {
+		content: "";
+		position: absolute;
+		background: linear-gradient(
+			90deg,
+			rgba(228, 86, 0, 1) 0%,
+			rgba(251, 220, 1, 1) 100%
+		);
+		bottom: 0;
+		left: 15px;
+		height: 5px;
+		width: calc(100% - 15px);
+	}
+
+	&::after {
+		content: url("../images/tagtitle.png");
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translate(0, -50%);
 	}
 }
 
