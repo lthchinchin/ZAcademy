@@ -13,12 +13,14 @@
                                 <div class="col-lg-4">
                                     <div class="footer-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
                                         <h3>Thông tin liên hệ</h3>
-                                        <h4>Công ty TNHH BGD LANDSCAPE</h4>
-                                        <ul class="list-unstyled mb-0">
+                                        <h4><a href="#">Email: Hocvienz@gmail.com</a></h4>
+                                        <h4><a href="#">Fanpage: Học viện Z</a></h4>
+                                        <h4><a href="#">Group: HI 47K DUE Z</a></h4>
+                                        <!-- <ul class="list-unstyled mb-0">
                                             <li><a href="https://goo.gl/maps/hxL3xW8PZ9SmC5pf8">Địa chỉ: 115 Phạm Cự Lượng, Đà Nẵng</a></li>
                                             <li><a href="tel:0777148777">Hotline: 0777148777</a></li>
                                             <li><a href="mailto:Binhgarden@gmail.com">Email: Binhgarden@gmail.com</a></li>
-                                        </ul>
+                                        </ul> -->
                                     </div>
                                 </div>
                                 <div class="col-lg-4">

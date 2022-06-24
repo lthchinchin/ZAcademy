@@ -19,15 +19,15 @@
                 display: flex;
                 align-items: center;
                 font-size: 13px;
-                color: $hover-color;
+                color: $text-dark-color;
 
-                a,
-                span {
-                    // color: #fff;
-                }
 
-                a:hover {
-                    color: $hover-color;
+                li:hover {
+                    color: $main-color;
+
+                    a {
+                        color: $main-color;
+                    }
                 }
 
                 .icon-box {

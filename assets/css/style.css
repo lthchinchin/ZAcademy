@@ -4,8 +4,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Pro" !important; }
+
 .sub-bg-co {
   background-color: #ef9700 !important; }
+
+.main-co {
+  color: #e45600 !important; }
 
 .second-co {
   color: #ef9700 !important; }
@@ -230,9 +238,11 @@ body {
         display: flex;
         align-items: center;
         font-size: 13px;
-        color: #ff731c; }
-        .header-top-wrap .contact a:hover {
-          color: #ff731c; }
+        color: #190900; }
+        .header-top-wrap .contact li:hover {
+          color: #e45600; }
+          .header-top-wrap .contact li:hover a {
+            color: #e45600; }
         .header-top-wrap .contact .icon-box {
           font-size: 14px;
           margin-right: 6px; }

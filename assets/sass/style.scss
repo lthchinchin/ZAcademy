@@ -13,8 +13,18 @@ $text-dark-color: #190900;
     box-sizing: border-box;
 }
 
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Pro" !important;
+}
+
 .sub-bg-co {
     background-color: $sub-color  !important;
+}
+
+.main-co {
+    color: $main-color  !important;
 }
 
 .second-co {
