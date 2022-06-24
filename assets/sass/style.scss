@@ -19,6 +19,10 @@ $text-dark-color: #190900;
     background-color: $main-color  !important;
 }
 
+.sub-bg-co {
+    background-color: $sub-color  !important;
+}
+
 .second-co {
     color: $sub-color  !important;
 }
@@ -148,7 +152,7 @@ body {
 
 }
 
-.line-spac{
+.line-spac {
     width: 1px;
     background-color: #000;
 }
@@ -457,7 +461,7 @@ body {
             border: 2px solid #fff;
             transition: 0.3s;
 
-            
+
             &-pi {
                 background: url(../images/pixlr-bg-result.png) center center no-repeat;
                 background-size: 30px;

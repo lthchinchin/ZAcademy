@@ -19,7 +19,7 @@
 					responsive: {
 						0: {
 							items: $(this).data("mobile"),
-							autoplay:true
+							autoplay: true
 						},
 						768: {
 							items: $(this).data("tablet"),
