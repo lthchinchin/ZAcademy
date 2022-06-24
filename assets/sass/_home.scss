@@ -1,6 +1,25 @@
 .home {
-	section {
+	.section-margin-bottom {
 		margin-bottom: 80px;
+		.title {
+			margin-bottom: 32px;
+		}
+	}
+	.section-padding {
+		padding: 80px;
+
+		.title {
+			margin-bottom: 48px;
+			&-main {
+				font-weight: 600;
+				font-size: 32px;
+				margin-bottom: 12px;
+			}
+			&-sub {
+				font-weight: 400;
+				font-size: 16px;
+			}
+		}
 	}
 	&_banner {
 		.group {
@@ -91,11 +110,6 @@
 			position: relative;
 			margin-bottom: 32px;
 		}
-		.pagenavi {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
 		.course {
 			&_img {
 				border-radius: 8px;
@@ -104,6 +118,175 @@
 				font-weight: 600;
 				font-size: 24px;
 				margin-top: 24px;
+			}
+		}
+		.list-steps {
+			.step-title {
+				color: #fff;
+				background: linear-gradient(
+					90deg,
+					rgba(228, 86, 0, 1) 0%,
+					rgba(251, 220, 1, 1) 100%
+				);
+				padding: 20px 0;
+				border-radius: 10px 10px 0 0;
+			}
+			.step-content {
+				background: #f0f0f4;
+				padding: 16px 8px;
+				border-bottom: 1px white solid;
+				img {
+					width: 36px;
+					height: 36px;
+					margin-right: 10px;
+				}
+				.text {
+					color: #190900;
+					.name {
+						font-weight: 600;
+						font-size: 20px;
+					}
+					.desc {
+						font-weight: 400;
+					}
+				}
+				&:last-child {
+					border-radius: 0 0 10px 10px;
+				}
+			}
+		}
+	}
+	&_mentor {
+		.mentor-home {
+			.mentor {
+				background-image: url(../images/home/people-background.png);
+				border-radius: 8px;
+				padding: 20px 45px;
+				&-img {
+				}
+				&-info {
+					color: #000000;
+					.name {
+						font-weight: 600;
+						font-size: 32px;
+						margin-bottom: 24px;
+					}
+					.job {
+						font-weight: 500;
+						font-size: 24px;
+						margin-bottom: 24px;
+					}
+					.list-achievement {
+						margin-right: -10px;
+						margin-bottom: 14px;
+
+						.achievement {
+							width: calc(50% - 10px);
+							margin-bottom: 10px;
+							margin-left: 10px;
+							&-img {
+								width: 24px;
+								height: 24px;
+								margin-right: 12px;
+							}
+							&-text {
+								color: #474747;
+								font-size: 20px;
+								font-weight: 500;
+							}
+						}
+					}
+					.desc {
+						color: #474747;
+						font-weight: 400;
+						font-size: 16px;
+						margin-bottom: 24px;
+					}
+					.list-social {
+						.social {
+							margin-right: 12px;
+							i {
+								color: #000000;
+								font-size: 48px;
+							}
+						}
+					}
+				}
+			}
+			.owl-nav {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				button {
+					border-radius: 50%;
+					&:hover {
+						background-color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	&_utilities {
+		background-color: #eee;
+
+		.utility {
+			background-color: #fff;
+			border-radius: 24px;
+			padding: 32px 10px;
+			.img {
+				width: auto;
+				height: 105px;
+			}
+			.name {
+				margin-top: 32px;
+				color: $main-color;
+				font-weight: 400;
+				font-size: 24px;
+			}
+		}
+	}
+	&_comment {
+		background-color: #fff;
+		.comment {
+			color: #190900;
+			background: #f8f8f8;
+			border-radius: 8px;
+			padding: 25px;
+			&-header {
+				margin-bottom: 24px;
+				.avatar img {
+					width: 50px;
+					height: 50px;
+					border-radius: 50%;
+					overflow: hidden;
+				}
+				.infor {
+					text-align: left;
+					margin-left: 12px;
+
+					.name {
+						font-weight: 700;
+						font-size: 18px;
+					}
+					.date {
+						font-weight: 500;
+						font-size: 16px;
+
+					}
+				}
+				.quotes img {
+					width: 25px;
+					height: 25px;
+				}
+			}
+			&-body{
+				font-weight: 500;
+				text-align: justify;
+				font-size: 16px;
+
 			}
 		}
 	}

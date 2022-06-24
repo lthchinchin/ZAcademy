@@ -1,16 +1,46 @@
 (function ($) {
 	$(document).ready(function () {
 		/* owlcarousel */
-		if ($(".owl-carousel").length) {
-			$(".owl-carousel").each(function () {
+		if ($(".owl-carousel.banner-home").length) {
+			$(".owl-carousel.banner-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:1,
-					loop:true,
-					margin:10,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					items: 1,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
+				});
+			});
+		}
+
+		if ($(".owl-carousel.mentor-home").length) {
+			$(".owl-carousel.mentor-home").each(function () {
+				// var owl = $(".owl-carousel");
+				$(this).owlCarousel({
+					items: 1,
+					loop: true,
+					margin: 24,
+					dots: false,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
+				});
+			});
+		}
+
+		if ($(".owl-carousel.comment-home").length) {
+			$(".owl-carousel.comment-home").each(function () {
+				// var owl = $(".owl-carousel");
+				$(this).owlCarousel({
+					items: 3,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}

@@ -46,7 +46,7 @@
             <div class="header-bottom">
                 <div class="container">
                     <div class="header-bottom-wrap">
-                        <div class="logo">
+                        <div class="logo d-flex align-items-center">
                             <a href="<?php echo get_home_url(); ?>">
                                 <img src="<?php echo esc_html(get_theme_mod('html_logo_header')); ?>" alt="logo">
                             </a>
@@ -79,31 +79,95 @@
             </div>
             <div class="header-underbottom d-none d-xl-block">
                 <div class="container">
+                    <div class="cus-nav-bar d-flex">
+                        <nav class="navbar multi-level navbar-expand-lg sub-bg-co">
+                            <div class="collapse navbar-collapse" id="main_nav">
+                                <ul class="navbar-nav p-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link kh-dropdown-toggle" href="#"> CHỌN KHÓA HỌC </a>
+                                        <ul class="dropdown-menu">
+                                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                                            <li class="has-child"> <a class="dropdown-item" href="#"> Dropdown item 2</a>
+                                                <div class="submenu dropdown-menu">
+                                                    <div class="row">
+                                                        <div class="col-8">
+                                                            <h3 class="submenu-title">Khóa học abc</h3>
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="submenu-item-name">
+                                                                        Kinh tế Vĩ mô
+                                                                    </div>
+                                                                    <p class="submenu-item-mentor">
+                                                                        Mr Hoàng
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="submenu-item-name">
+                                                                        Kinh tế Vĩ mô
+                                                                    </div>
+                                                                    <p class="submenu-item-mentor">
+                                                                        Mr Hoàng
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="submenu-item-name">
+                                                                        Kinh tế Vĩ mô
+                                                                    </div>
+                                                                    <p class="submenu-item-mentor">
+                                                                        Mr Hoàng
+                                                                    </p>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="submenu-item-name">
+                                                                        Kinh tế Vĩ mô
+                                                                    </div>
+                                                                    <p class="submenu-item-mentor">
+                                                                        Mr Hoàng
+                                                                    </p>
+                                                                </div>
 
-                    <?php
-                    $primarymenu = array(
-                        'theme_location'  => 'primary',
-                        'menu'            => '',
-                        'container'       => '',
-                        'container_class' => '',
-                        'container_id'    => '',
-                        'menu_class'      => 'slimmenu',
-                        'menu_id'         => 'primary-menu',
-                        'echo'            => true,
-                        'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                        'walker'          => new wp_bootstrap_navwalker(),
-                        'before'          => '',
-                        'after'           => '',
-                        'link_before'     => '',
-                        'link_after'      => '',
-                        'items_wrap'      => '<ul data-breakpoint="800" id="%1$s" class="d-xl-flex d-none list-unstyled mb-0">%3$s</ul>',
-                        'depth'           => 0,
-                    );
-                    if (has_nav_menu('primary')) {
-                        wp_nav_menu($primarymenu);
-                    }
-                    ?>
+                                                            </div>
 
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img src="<?php echo esc_html(get_theme_mod('html_footer_header')); ?>" alt="logo">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                                            <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar-collapse.// -->
+                        </nav>
+
+                        <?php
+                        $primarymenu = array(
+                            'theme_location'  => 'primary',
+                            'menu'            => '',
+                            'container'       => '',
+                            'container_class' => '',
+                            'container_id'    => '',
+                            'menu_class'      => 'slimmenu',
+                            'menu_id'         => 'primary-menu',
+                            'echo'            => true,
+                            'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                            'walker'          => new wp_bootstrap_navwalker(),
+                            'before'          => '',
+                            'after'           => '',
+                            'link_before'     => '',
+                            'link_after'      => '',
+                            'items_wrap'      => '<ul data-breakpoint="800" id="%1$s" class="d-xl-flex align-items-center d-none list-unstyled mb-0">%3$s</ul>',
+                            'depth'           => 0,
+                        );
+                        if (has_nav_menu('primary')) {
+                            wp_nav_menu($primarymenu);
+                        }
+                        ?>
+                    </div>
                 </div>
             </div>
             <div class="header-menu">
