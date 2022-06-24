@@ -5,12 +5,12 @@
 			$(".owl-carousel.banner-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:1,
-					loop:true,
-					margin:24,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					items: 1,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}
@@ -19,14 +19,14 @@
 			$(".owl-carousel.mentor-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:1,
-					loop:true,
+					items: 1,
+					loop: true,
 					margin: 24,
 					dots: false,
-					nav:true,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}
@@ -35,12 +35,12 @@
 			$(".owl-carousel.comment-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:3,
-					loop:true,
-					margin:24,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					items: 3,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}

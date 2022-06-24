@@ -117,7 +117,7 @@
                 height: 96px;
 
                 img {
-                    width: 150px;
+                    width: 230px;
                 }
             }
 
@@ -245,127 +245,76 @@
             top: 0;
         }
 
-        ul {
-            list-style: none;
+        .cus-nav-bar {
             text-transform: uppercase;
-            padding: 13px;
-            margin-bottom: 0;
-            // border-top: solid 5px $main-color;
-            // border-radius: 8px;
 
-            .active {
-                a {
-                    color: #fff;
-
-                    &::after {
-                        width: 100%;
-                    }
-                }
-
-                .nav-dropdown {
-                    li {
-                        a {
-                            color: #fff
-                        }
-                    }
-
-                    // .active {
-                    //     a {
-                    //         color: #fff;
-
-                    //         &::after {
-                    //             width: 100%;
-                    //         }
-                    //     }
-                    // }
-                }
+            a {
+                color: #fff;
             }
 
-            li {
-                // display: inline-block;
-                position: relative;
+            nav.multi-level {
+                padding: 8px 20px;
 
-                // &:not(:last-child) {
-                // }
-                margin: 0 50px;
+                .submenu {
+                    padding: 24px;
 
-                // padding: 18px 16px;
-                &.menu-item-has-children {
-                    ul {
-                        width: 100%;
-                        box-shadow: 0px 0px 3px 0px #1f1f1f7a !important;
+                    &-title {
+                        color: $main-color;
+                        font-weight: bold;
                     }
 
-                    &::after {
-                        content: "\f078";
-                        font-family: "Font Awesome 5 Pro";
-                        font-size: 18px;
-                        margin-right: 5px;
-                        color: #fff;
+                    &-item-name {
+                        font-size: 20px;
+                    }
+
+                    &-item-mentor {
+                        font-size: 16px;
+                        color: $text-color;
                     }
                 }
 
-
-
-                a {
-                    color: #fff;
-
-                    &::after {
-                        content: "";
-                        background-color: white;
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        height: 1px;
-                        width: 0;
-                        transition: 0.2s;
-                    }
-
-                    // &:hover {
-                    //     &::after {
-                    // background-color: #f9bc38;
-                    // width: 100%;
-                    //     }
-                    // }
-                }
-
-                &:last-child {
-                    border: none;
-                }
-
-                .nav-dropdown {
-                    display: none;
-                    position: absolute;
-                    z-index: 5;
-                    padding: 20px 0;
-                    text-align: center;
-                    width: 237px;
-                    left: -74%;
-                    background-color: #fff;
-
-                    li {
-                        padding: 5px 0;
-                        margin: 0;
-                        display: block;
-
-                        a {
-                            font-size: 15px;
-                            text-align: center;
-                            color: $text-color  !important;
-                        }
-
-                        &:hover {
-                            color: $main-color;
+                .has-child {
+                    .dropdown-item {
+                        &::after {
+                            content: "\f101";
+                            font-family: "Font Awesome 5 Pro";
+                            font-size: 16px;
+                            margin-left: 16px;
                         }
                     }
+                }
+
+                .dropdown-item {
+                    font-size: 20px;
+                    font-weight: bold;
+
                 }
 
                 &:hover {
-
                     .dropdown-menu {
+                        box-shadow: 0px 0px 3px 3px #8888882b;
+                        background-color: $lightgray-color;
+                        border: 0;
+                        border-radius: 0;
+                        // left: -20px;
+                        // top: calc(100% + 8px);
+
+                        &.submenu {
+                            background-color: #fff;
+                            font-size: 18px;
+                            display: none;
+                            font-size: 18px;
+                            text-transform: capitalize;
+                            width: 500px;
+                        }
+
                         li {
                             padding: 16px 0;
                             margin: 0;
+
+                            &.has-child:hover>.submenu {
+                                display: block !important;
+                            }
 
                             a {
                                 color: $text-color;
@@ -378,52 +327,53 @@
                                     }
                                 }
                             }
+
+                            .dropdown-item {
+                                font-size: 20px;
+                                font-weight: bold;
+
+                                &:hover {
+                                    background-color: unset;
+                                }
+                            }
                         }
 
 
                         display: block;
                     }
                 }
-            }
-        }
 
-
-        .header-mid__cart {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-
-            i {
-                color: #fff;
-
-                &:hover {
-                    color: #f9bc38;
-                }
             }
 
-            p {
-                color: #fff;
-                margin: 0 20px;
-            }
+            ul#primary-menu {
+                li.menu-item {
+                    padding: 8px 20px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
 
-            .header-cart-mini {
-                position: relative;
+                    &.current_page_item {
+                        border: 1px solid $main-color;
+                        border-bottom: 0px;
+                        background-color: #fff;
 
-                #mini-cart-count {
-                    background: #f9bc38;
-                    border-radius: 4px;
-                    padding: 0 4px;
-                    display: inline-block;
-                    position: absolute;
-                    font-size: 11px;
-                    line-height: 19px;
-                    top: -5px;
-                    right: -18px;
+                        a {
+                            color: $main-color  !important;
+                        }
+                    }
                 }
             }
         }
+
+        .kh-dropdown-toggle::before {
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Pro";
+            font-size: 16px;
+            margin-right: 5px;
+        }
+
+
+
     }
 
     &-menu {
@@ -497,6 +447,38 @@
             }
         }
     }
+
+    /* ============ desktop view ============ */
+    @media all and (min-width: 992px) {
+        .dropdown-menu li {
+            position: relative;
+        }
+
+        .nav-item .submenu.dropdown-menu {
+            position: absolute;
+            left: 100%;
+            top: -7px;
+        }
+
+        .nav-item .submenu-left {
+            right: 100%;
+            left: auto;
+        }
+
+    }
+
+    /* ============ desktop view .end// ============ */
+
+    /* ============ small devices ============ */
+    @media (max-width: 991px) {
+        .dropdown-menu .dropdown-menu {
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+            margin-bottom: .5rem;
+        }
+    }
+
+    /* ============ small devices .end// ============ */
 }
 
 @media (max-width: 1199px) {
@@ -628,10 +610,11 @@
     }
 }
 
-li#mega-menu-item-media_image-4{
+li#mega-menu-item-media_image-4 {
     height: 255px;
 }
 
-#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link{
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-megamenu>ul.mega-sub-menu>li.mega-menu-item>a.mega-menu-link,
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-megamenu>ul.mega-sub-menu li.mega-menu-column>ul.mega-sub-menu>li.mega-menu-item>a.mega-menu-link {
     font-size: 14px;
 }
