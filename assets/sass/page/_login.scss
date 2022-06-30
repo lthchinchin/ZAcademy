@@ -1,0 +1,160 @@
+.page-login {
+	.box {
+		background: #f0f0f4;
+		border-radius: 8px;
+		margin: 80px 0;
+		padding: 80px;
+		.title {
+			font-weight: 600;
+			font-size: 32px;
+			color: #e45600;
+			margin-bottom: 120px;
+		}
+		.login-username,
+		.login-password {
+			display: flex;
+			label {
+				font-weight: 600;
+				font-size: 18px;
+				color: #000000;
+				width: 190px;
+				position: relative;
+				&::after {
+					position: absolute;
+					content: "(*)";
+					color: #E45600;
+					right: 10px;
+				}
+			}
+			input {
+				flex: 1;
+				background: #ffffff;
+				box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+				border-radius: 5px;
+				height: 40px;
+				padding: 8px 16px;
+				border: none;
+			}
+		}
+		.login-remember {
+			margin-left: 190px;
+			label {
+				font-size: 14px;
+				color: #190900;
+				display: flex;
+				align-items: center;
+			}
+			input {
+				margin-right: 10px;
+				border: 1px solid #190900;
+			}
+		}
+		.login-submit {
+			margin-left: 190px;
+			input {
+				background: #e45600;
+				border-radius: 8px;
+				width: 145px;
+				height: 55px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-weight: 700;
+				font-size: 16px;
+				color: #ffffff;
+				border: none;
+			}
+		}
+		.error {
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+}
+
+.page-register {
+	.box {
+		background: #f0f0f4;
+		border-radius: 8px;
+		margin: 80px 0;
+		padding: 80px;
+		.title {
+			font-weight: 600;
+			font-size: 32px;
+			color: #e45600;
+			margin-bottom: 120px;
+		}
+		.register-name,
+		.register-username,
+		.register-password,
+		.register-re-password,
+		.register-phone,
+		.register-otp {
+			display: flex;
+			label {
+				font-weight: 600;
+				font-size: 18px;
+				color: #000000;
+				width: 190px;
+				position: relative;
+				&::after {
+					position: absolute;
+					content: "(*)";
+					color: #E45600;
+					right: 10px;
+				}
+			}
+			input {
+				flex: 1;
+				background: #ffffff;
+				box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+				border-radius: 5px;
+				height: 40px;
+				padding: 8px 16px;
+				border: none;
+			}
+			button {
+				height: 40px;
+				padding: 8px 16px;
+				border: none;
+				color: #ffffff;
+				background-color: #474747;
+				font-size: 16px;
+				box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+				border-radius: 5px;
+				margin-left: 24px;
+			}
+		}
+        .register-agree {
+			margin-left: 190px;
+            margin-bottom: 48px;
+			label {
+				font-size: 14px;
+				color: #190900;
+				display: flex;
+				align-items: center;
+			}
+			input {
+				margin-right: 10px;
+				border: 1px solid #190900;
+			}
+		}
+		.register-submit {
+			margin-left: 190px;
+			button {
+				background: #e45600;
+				border-radius: 8px;
+				width: 145px;
+				height: 55px;
+				font-weight: 700;
+				font-size: 16px;
+				color: #ffffff;
+				border: none;
+			}
+		}
+		.error {
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+}
