@@ -4,6 +4,7 @@ $sub-color: #ef9700;
 $lightgray-color: #f0f0f4;
 $text-color: #474747;
 $text-dark-color: #190900;
+$blue-co : rgb(2, 126, 249);
 
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
@@ -382,6 +383,12 @@ body {
     &-mentor {
         background-image: url("../images/profile/Banner-profile.jpg");
         height: 480px;
+    }
+
+    &-single-source {
+        .course-detail-info {
+            background-image: url("../images/Banner-single-source.jpg") !important;
+        }
     }
 }
 

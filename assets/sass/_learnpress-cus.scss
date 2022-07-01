@@ -28,10 +28,175 @@ body {
 	background: $lightgray-color;
 	border-radius: 8px !important;
 
+	.course-wrap-thumbnail {
+		border-radius: 8px 8px 0 0;
+	}
+
 	.course-content {
 		border: none !important;
 	}
 }
+
+// lp title
+
+.section-title {
+	.section-desc {
+		font-size: 16px;
+		font-weight: normal;
+	}
+}
+
+// course-sidebar-top
+
+.course-sidebar-top {
+	border-radius: 8px;
+}
+
+// lp form
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+	&>* {
+		display: block;
+	}
+
+	textarea,
+	input {
+		width: 100%;
+		border-radius: 8px;
+		border: 1px solid #f0f0f4;
+
+
+		&:focus {
+			outline-color: #e8e8e8;
+			// border-color: #d7d7d7 !important;
+		}
+	}
+
+	textarea {
+		height: 120px;
+		margin-top: 16px;
+		padding: 16px;
+	}
+
+	input {
+		padding: 8px 16px;
+	}
+}
+
+.form-submit {
+	input[type=submit] {
+		padding: 8px 12px;
+		background: none;
+		border: 1px solid $main-color;
+		border-radius: 4px;
+		color: $main-color;
+
+		&:hover {
+			background-color: $main-color;
+			color: #fff;
+		}
+	}
+
+}
+
+// comment
+.learn-press-comments {
+	h3 {
+		font-size: 24px;
+	}
+
+	.commentlist {
+		list-style: none;
+
+		li {
+			margin-bottom: 24px;
+		}
+
+		.comment-author {
+			display: flex;
+			align-items: flex-end;
+
+			img {
+				max-width: 50px;
+				margin-right: 8px;
+			}
+
+			.says {
+				display: none;
+			}
+		}
+
+		.comment-metadata {
+			font-size: 12px;
+		}
+
+		.comment-content {
+			p {
+				font-size: 16px;
+				margin-bottom: 0;
+			}
+		}
+
+		.comment-reply-link {
+			margin-bottom: 16px;
+			color: $blue-co;
+		}
+
+		.children {
+			margin-top: 16px;
+			padding-left: 24px;
+		}
+	}
+}
+
+
+.lp-button {
+	margin-bottom: 0 !important;
+}
+
+.course-footer {
+	text-align: center;
+	margin-bottom: 16px;
+
+	.course-price {
+		float: unset !important;
+	}
+}
+
+// section title
+
+
+ul.curriculum-sections {
+	&>li {
+		margin-bottom: 24px;
+
+		.section-title {
+			.section-desc {
+				margin-bottom: 0;
+			}
+		}
+
+		.section-toggle {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&:nth-child(odd) {
+			.section-title {
+				// background-color: $lightgray-color  !important;
+			}
+		}
+
+		&:nth-child(even) {}
+	}
+}
+
+
+
+
 
 // div#learn-press-course {
 // 	display: flex;

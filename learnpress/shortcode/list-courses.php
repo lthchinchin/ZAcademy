@@ -15,7 +15,6 @@ if (!isset($query)) {
 }
 
 ?>
-<h2>sadbsbd</h2>
 <div class="lp-archive-courses">
 	<div class="lp-content-area">
 		<?php if (!empty($title)) : ?>

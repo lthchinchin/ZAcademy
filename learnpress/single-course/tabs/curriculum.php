@@ -22,7 +22,7 @@ if (!$course || !$user) {
 $can_view_content_course = $user->can_view_content_course($course->get_id());
 ?>
 
-<div class="course-curriculum" id="learn-press-course-curriculum-cus">
+<div class="course-curriculum" id="learn-press-course-curriculum">
 	<div class="curriculum-scrollable">
 
 		<?php do_action('learn-press/before-single-course-curriculum'); ?>
