@@ -6,6 +6,7 @@ $text-color: #474747;
 $text-dark-color: #190900;
 
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
 * {
     margin: 0;
@@ -23,12 +24,20 @@ $text-dark-color: #190900;
     background-color: $sub-color  !important;
 }
 
+.main-bg-co {
+    background-color: $main-color  !important;
+}
+
 .main-co {
     color: $main-color  !important;
 }
 
 .second-co {
     color: $sub-color  !important;
+}
+
+.minus-top-25 {
+    top: -25px;
 }
 
 a {
@@ -350,6 +359,62 @@ body {
     }
 }
 
+.kh-banner {
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .banner-wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-aboutus {
+        background-image: url("../images/about_us/Banner-aboutus.jpg");
+        height: 480px;
+    }
+
+    &-mentor {
+        background-image: url("../images/profile/Banner-profile.jpg");
+        height: 480px;
+    }
+}
+
+.kh-breadcrumb {
+    padding: 20px;
+    background-color: $text-color;
+
+    a {
+        color: $main-color;
+    }
+
+    a:first-child {
+        color: #fff;
+    }
+}
+
+section.sect-cus {
+    padding: 80px 0;
+
+    @media (max-width: 1199.98px) {
+        padding: 48px 0;
+    }
+
+
+    @media (max-width: 991px) {
+        padding: 32px 0;
+    }
+}
+
+
 @import "header";
 @import "footer";
 @import "home";
+@import "about-us";
+@import "learnpress-cus";
+@import "profile";

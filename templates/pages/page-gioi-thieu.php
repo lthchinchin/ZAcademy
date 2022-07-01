@@ -1,213 +1,160 @@
 <?php get_header(); ?>
-<section class="garden-banner garden-banner-aboutus">
+<section class="kh-banner kh-banner-aboutus">
     <div data-aos="fade-up" data-aos-duration="1000" class="banner-wrap">
         <div class="container">
             <div class="content">
-                <h1 class="text-white text-center mb-lg-4 mb-3">BGD Landscape - <span class="second-co">Về chúng tôi</span></h1>
+                <h1 class="text-white text-center mb-lg-4 mb-3">HỌC VIỆN Z - <span class="second-co">GIỚI THIỆU</span></h1>
             </div>
         </div>
     </div>
 </section>
-<section class="garden-sumenh">
+<?php get_template_part('templates/block/page', 'breadcrumb'); ?>
+<section class="kh-induction sect-cus">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="garden-sumenh__thumb" data-aos="fade" data-aos-duration="1000"><img src="<?php echo get_template_directory_uri() ?>/assets/images/su-menh-thumb.png"></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="garden-sumenh__content" data-aos="fade" data-aos-duration="1000">
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/su-menh-icon1.png" alt="">
-                            </div>
-                            <div class="col-9">
-                                <h2>TẦM NHÌN</h2>
-                                <p><b>BGD Landscape</b> là Doanh nghiệp chuyên tư vấn, thiết kế và thi
-                                    công cảnh quan dẫn đầu thị trường Miền Trung - Tây Nguyên,
-                                    trong phân khúc khách hàng cao cấp.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/su-menh-icon2.png" alt="">
-                            </div>
-                            <div class="col-9">
-                                <h2>SỨ MỆNH</h2>
-                                <p><b>BGD Landscape</b> hướng đến việc Tư vấn, thiết kế và thi công
-                                    những sản phẩm cảnh quan tối ưu và vượt qua sự kỳ vọng của
-                                    khách hàng.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-3">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/su-menh-icon33.png" alt="">
-                            </div>
-                            <div class="col-9">
-                                <h2>GIÁ TRỊ CỐT LÕI</h2>
-
-                                <ol>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <li>Chính trực</li>
-                                            <li>Phù hợp</li>
-                                        </div>
-                                        <div class="col-6">
-                                            <li>Trách nhiệm</li>
-                                            <li>Học tập không ngừng</li>
-                                        </div>
-                                    </div>
-                                </ol>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="content-wrap">
+            <?php echo get_the_content();  ?>
         </div>
     </div>
-    </div>
 </section>
-<section class="garden-tutuong">
+<section class="kh-rule">
+    <h2 class="text-center">Học Viện Z xây dựng sản phẩm khóa học dựa trên 3 nguyên tắc chính</h2>
+    <div class="kh-rule__three-rules">
+        <div class="row gx-0">
+            <div class="col-4">
+                <div class="rule-item active">
+                    <img class="thumb" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-1.png" alt="">
+                    <img class="mask" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-mask.png" alt="">
+                    <h3>Chất lượng tốt & Hình thức tốt:</h3>
+                    <p class="short-desc">Bám sát chương trình học và thi của từng trường đại học, chứng chỉ ngoại ngữ và tin học, ngân hàng đề thi cập nhập mỗi kỳ, mỗi giai đoạn thi. Nội dung truyền tải thú vị, gần gũi với sinh viên. Có cả hình thức học Trực Tuyến và Trực Tiếp với Mentor nhằm đáp ứng đầy đủ yêu cầu của sinh viên.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="rule-item lr-border">
+                    <img class="thumb" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-2.png" alt="">
+                    <img class="mask" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-mask.png" alt="">
+                    <h3>Nhiệt tình & tận tâm:</h3>
+                    <p class="short-desc">Giải đáp mọi thắc mắc trong quá trình học trong các cộng đồng chăm sóc học viên của từng trường đại học
+                        .</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="rule-item">
+                    <img class="thumb" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-3.png" alt="">
+                    <img class="mask" src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Rule-mask.png" alt="">
+                    <h3>Lấy sinh viên làm trung tâm:</h3>
+                    <p class="short-desc">Hỗ trợ mọi khóa học các bạn Sinh Viên mà các bạn sợ nhất, hỗ trợ tài liệu chất lượng cho các bạn cũng như trang bị hành trang cho các bạn sinh viên trước khi ra đời.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h1 class="text-center main-co spec-font">Chào mừng các bạn đến với Học Viện Z</h1>
+</section>
+<section class="kh-our-mentor sect-cus">
     <div class="container">
-        <div data-aos="fade-right" data-aos-duration="1000" class="section-title">
-            <h2 class="section-title__name second-co text-center fw-bold">TƯ TƯỞNG CỐT LÕI<h2>
+        <div class="title position-relative">
+            <div class="title_with_tag mb-lg-5 mb-4">
+                Mentor của chúng tôi
+            </div>
+            <button class="btn p-3 text-white main-bg-co position-absolute minus-top-25 end-0">Xem thêm Mentor<i class="ms-3 far fa-angle-double-right"></i></button>
         </div>
-        <?php get_template_part('templates/block/bussiness', 'slogans'); ?>
-    </div>
-</section>
-<section class="garden-banner garden-banner-aboutus-second p-0">
-    <div data-aos="fade-up" data-aos-duration="1000" class="banner-wrap">
-        <div class="container">
-            <div class="content">
-                <h1 class="text-white text-center mb-lg-4 mb-3">GIẢI PHÁP CẢNH QUAN - BGD Landscape</h1>
-                <P class="text-white text-center">
-                    There are many variations of passages of Lorem Ipsum available, in but the majority have suffered alteration in some form, by injected humour, randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipto be sure there isn't anything embarrassing hidden in the middle this the first true generator on the ternet. It uses a dictionary of over humour, orc words etc.
-                </P>
-                <a href="<?php echo get_home_url(); ?>/danh-muc-du-an/du-an-thi-cong/">
-                    <button class="btn btn-cus btn-cus--white d-block mx-auto">
-                        Tìm hiểu thêm <i class="ms-2 far fa-arrow-right"></i>
-                    </button>
-                </a>
+        <div class="owl-carousel owl-theme mentor-introduce">
+            <div class="item">
+                <div class="mentor">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
+                    </a>
+                    <h2 class="text-center">Mr. Đạt</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mentor">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
+                    </a>
+                    <h2 class="text-center">Mr. Đạt</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mentor">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
+                    </a>
+                    <h2 class="text-center">Mr. Đạt</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="mentor">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
+                    </a>
+                    <h2 class="text-center">Mr. Đạt</h2>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section class="garden-ceo">
+<section class="section-padding home_utilities sect-cus">
     <div class="container">
-        <div class="garden-ceo-wrap">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="garden-ceo-wrap__thumb mb-lg-0 mb-4">
-                        <img data-aos="fade-up" data-aos-duration="1000" src="<?php echo get_template_directory_uri() ?>/assets/images/ceo.jpg" alt="">
+        <div class="text-center title">
+            <h2>Các tiện ích khi học online</h2>
+            <p>
+                Không những mang lại những hiệu quả không tưởng mà học online còn có những tiện ích mà cách học
+                truyền thống không thể sánh kịp
+            </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-3">
+                <div class="text-center utility">
+                    <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Icon1.png">
+                    <div class="name">
+                        Đa dạng khóa học
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="garden-ceo-wrap__content" data-aos="fade-up" data-aos-duration="2000">
-                        <h2>ĐĂNG TRƯƠNG BÌNH</h2>
-                        <h3>Founder / CEO BGD Landscape</h3>
-                        <i class="fw-bold">"Mong muốn của chúng tôi là mang lại cho Quý khách hàng những sản phẩm và giải pháp cảnh quan vượt trội, theo tiêu chý phù hợp, bền vững , khác biệt và đẳng cấp nhất."</i>
-                        <div class="icon-group">
-                            <a class="main-co" target="_blank" href="<?php echo esc_html(get_theme_mod('html_facebook')); ?>"><i class="fab fa-facebook me-3"></i></a>
-                            <a class="main-co" href="#"><i class="fab fa-instagram me-3"></i></a>
-                            <a class="main-co" href="#"><i class="fab fa-youtube "></i></a>
-                        </div>
+            </div>
+            <div class="col-3">
+                <div class="text-center utility">
+                    <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Icon2.png">
+                    <div class="name">
+                        Chất lượng chuyên môn cao
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="text-center utility">
+                    <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Icon3.png">
+                    <div class="name">
+                        Mentor hỗ trợ tận tâm
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="text-center utility">
+                    <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Icon4.png">
+                    <div class="name">
+                        Cộng đồng lớn mạnh
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="garden-review">
+<section class="kh-highlight-sources sect-cus">
     <div class="container">
-        <div data-aos="fade-right" data-aos-duration="1000" class="section-title">
-            <h2 class="section-title__name second-co text-center">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI</h2>
-            <p class="section-title__desc text-center">Niềm vui của khách hàng tạo động lực cho chúng tôi hoàn thiện mình từng ngày!</p>
-        </div>
-        <div class="garden-review-slider">
-            <div class="owl-carousel " data-autoheight="true" data-desktop="4" data-desktop-small="3" data-tablet="3" data-mobile="1" data-nav="false" data-margintb="" data-dots="true" data-loop="true" data-autoplay="false" data-speed="500" data-autotime="4000">
-                <div class="owl-carousel-item">
-                    <div class="garden-review-slider__item">
-                        <div class="content d-flex justify-content-between">
-                            <div class="user d-flex">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/ava1.png" alt="">
-                                <div style="min-width: 180px;" class="pt-2 ps-3">
-                                    <p class="name">Trần Phương</p>
-                                    <p>Feb 27, 2022</p>
-                                </div>
-                            </div>
-                            <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/review-icon2.png" alt="">
-                        </div>
-                        <p class="text line-3">Sản phẩm chất lượng, màu sơn lên rõ, đẹp. Nhân viên tư vấn nhiệt tình, chuyên nghiệp. </p>
-                    </div>
-                </div>
-                <div class="owl-carousel-item">
-                    <div class="garden-review-slider__item">
-                        <div class="content d-flex justify-content-between">
-                            <div class="user d-flex">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/ava1.png" alt="">
-                                <div style="min-width: 180px;" class="pt-2 ps-3">
-                                    <p class="name">Minhvinh Tm</p>
-                                    <p>Jan 22, 2021</p>
-                                </div>
-                            </div>
-                            <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/review-icon2.png" alt="">
-                        </div>
-                        <p class="text line-3">Good service. Nhân viên nhiệt tình, đặt là ship hàng ngay, chất lượng thì rất ok. Chúc cty luôn phát triển và bền vững.
- </p>
-                    </div>
-                </div>
-                <div class="owl-carousel-item">
-                    <div class="garden-review-slider__item">
-                        <div class="content d-flex justify-content-between">
-                            <div class="user d-flex">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/ava1.png" alt="">
-                                <div style="min-width: 180px;" class="pt-2 ps-3">
-                                    <p class="name">Minh Ngọc</p>
-                                    <p>May 2, 2021</p>
-                                </div>
-                            </div>
-                            <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/review-icon2.png" alt="">
-                        </div>
-                        <p class="text line-3">Nhiều cây độc lạ, giá tốt, công ty trả lời khách hàng rất nhiệt tình và uy tín ạ :) </p>
-                    </div>
-                </div>
-                <div class="owl-carousel-item">
-                    <div class="garden-review-slider__item">
-                        <div class="content d-flex justify-content-between">
-                            <div class="user d-flex">
-                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/ava1.png" alt="">
-                                <div style="min-width: 180px;" class="pt-2 ps-3">
-                                    <p class="name">Huy Đức</p>
-                                    <p>Sep 12, 2021</p>
-                                </div>
-                            </div>
-                            <img class="icon" src="<?php echo get_template_directory_uri() ?>/assets/images/review-icon2.png" alt="">
-                        </div>
-                        <p class="text line-3">Mình khá là thích cách phục vụ ở đây vì thường thì mình mua ở BGD. Lần sau sẽ tiếp tục tin dùng. </p>
-                    </div>
-                </div>
-
-
+        <div class="title position-relative">
+            <div class="title_with_tag mb-lg-5 mb-4">
+                Các khóa học nổi bật
             </div>
+            <button class="btn p-3 text-white main-bg-co position-absolute minus-top-25 end-0">Xem thêm khóa học<i class="ms-3 far fa-angle-double-right"></i></button>
         </div>
-        <?php get_template_part('templates/block/bussiness', 'partners'); ?>
-    </div>
-</section>
-<section class="garden-banner garden-banner-third garden-contact">
-    <div data-aos="fade-up" data-aos-duration="1000" class="banner-wrap">
-        <div class="container">
-            <div class="content">
-                <h1 class="text-white text-center mb-lg-4 mb-3">Đăng ký nhận tin tức của chúng tôi tại đây</h1>
-                <a href="<?php echo get_home_url(); ?>/gioi-thieu">
-                    <button class="btn btn-cus btn-cus--white d-block mx-auto">
-                        Đăng ký ngay <i class="ms-2 far fa-arrow-right"></i>
-                    </button>
-                </a>
+        <div class="owl-carousel owl-theme highlight-sources">
+            <div class="item">
+                <div class="mentor">
+                    <a href="#">
+                        <img src="<?php bloginfo('template_url'); ?>/assets/images/about_us/Images-kh.jpg" class="mentor-img" alt="Mentor">
+                        <h5 class="text-center mt-3">Kinh tế Vĩ mô - Mr Hoàng</h5>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

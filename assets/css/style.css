@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +13,17 @@
 .sub-bg-co {
   background-color: #ef9700 !important; }
 
+.main-bg-co {
+  background-color: #e45600 !important; }
+
 .main-co {
   color: #e45600 !important; }
 
 .second-co {
   color: #ef9700 !important; }
+
+.minus-top-25 {
+  top: -25px; }
 
 a {
   text-decoration: none;
@@ -219,6 +226,42 @@ body {
     top: 50%;
     transform: translate(0, -50%); }
 
+.kh-banner {
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .kh-banner .banner-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .kh-banner-aboutus {
+    background-image: url("../images/about_us/Banner-aboutus.jpg");
+    height: 480px; }
+  .kh-banner-mentor {
+    background-image: url("../images/profile/Banner-profile.jpg");
+    height: 480px; }
+
+.kh-breadcrumb {
+  padding: 20px;
+  background-color: #474747; }
+  .kh-breadcrumb a {
+    color: #e45600; }
+  .kh-breadcrumb a:first-child {
+    color: #fff; }
+
+section.sect-cus {
+  padding: 80px 0; }
+  @media (max-width: 1199.98px) {
+    section.sect-cus {
+      padding: 48px 0; } }
+  @media (max-width: 991px) {
+    section.sect-cus {
+      padding: 32px 0; } }
+
 .header {
   /* ============ desktop view ============ */
   /* ============ desktop view .end// ============ */
@@ -369,7 +412,7 @@ body {
           font-size: 16px;
           margin-left: 16px; }
         .header-underbottom .cus-nav-bar nav.multi-level .dropdown-item {
-          font-size: 20px;
+          font-size: 18px;
           font-weight: bold; }
         .header-underbottom .cus-nav-bar nav.multi-level:hover .dropdown-menu {
           box-shadow: 0px 0px 3px 3px #8888882b;
@@ -396,7 +439,7 @@ body {
                 .header-underbottom .cus-nav-bar nav.multi-level:hover .dropdown-menu li a:hover::after {
                   background-color: unset; }
             .header-underbottom .cus-nav-bar nav.multi-level:hover .dropdown-menu li .dropdown-item {
-              font-size: 20px;
+              font-size: 18px;
               font-weight: bold; }
               .header-underbottom .cus-nav-bar nav.multi-level:hover .dropdown-menu li .dropdown-item:hover {
                 background-color: unset; }
@@ -795,3 +838,93 @@ li#mega-menu-item-media_image-4 {
       font-weight: 500;
       text-align: justify;
       font-size: 16px; }
+
+.kh-induction {
+  padding-bottom: 48px; }
+
+.kh-rule {
+  padding: 48px 0;
+  background-color: #f0f0f4; }
+  .kh-rule__three-rules {
+    color: #474747;
+    margin: 48px 0; }
+    .kh-rule__three-rules .rule-item {
+      padding: 24px;
+      text-align: start;
+      position: relative;
+      background-color: #fff; }
+      .kh-rule__three-rules .rule-item img.thumb {
+        max-width: 200px;
+        width: 100%;
+        margin-bottom: 24px; }
+      .kh-rule__three-rules .rule-item img.mask {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px; }
+      .kh-rule__three-rules .rule-item .short-desc {
+        height: 63px; }
+      .kh-rule__three-rules .rule-item.active {
+        color: #fff;
+        background-color: #e45600; }
+      .kh-rule__three-rules .rule-item.lr-border {
+        border: 1px solid #f0f0f4;
+        border-top: 0;
+        border-bottom: 0; }
+  .kh-rule h1.spec-font {
+    font-family: 'Carattere', cursive !important;
+    font-size: 100px;
+    font-weight: normal; }
+
+.kh-our-mentor .item {
+  padding: 12px 24px;
+  background-color: #f0f0f4;
+  border-radius: 8px; }
+
+.kh-highlight-sources .item .mentor img {
+  border-radius: 8px; }
+  .kh-highlight-sources .item .mentor img h5 {
+    color: #474747;
+    font-size: 24px; }
+
+@media (max-width: 1199.98px) {
+  .kh-rule {
+    padding: 32px 0; }
+    .kh-rule__three-rules {
+      margin: 32px 0; }
+    .kh-rule h1.spec-font {
+      font-size: 48px; } }
+
+@media (max-width: 991px) {
+  .kh-rule h1.spec-font {
+    font-size: 32px; } }
+
+/** * learnpress lesson custom css * * Important but you can change it as per your design */
+html,
+body {
+  overflow: unset !important; }
+
+.learn-press-breadcrumb {
+  margin: 0 auto 0 auto !important;
+  padding: 20px 0 !important; }
+
+.learn-press-breadcrumb,
+.lp-content-area {
+  width: 1296px !important; }
+
+#learn-press-course-curriculum .section-desc {
+  margin: 10px 0 0 !important; }
+
+.learn-press-courses[data-layout=list] .lp_course {
+  border-radius: 8px !important;
+  border: none !important;
+  background: #f0f0f4; }
+
+.learn-press-courses[data-layout=grid] .course-item {
+  background: #f0f0f4;
+  border-radius: 8px !important; }
+  .learn-press-courses[data-layout=grid] .course-item .course-content {
+    border: none !important; }
+
+#learn-press-profile .wrapper-profile-header {
+  background: linear-gradient(rgba(255, 208, 133, 0.45), rgba(0, 0, 0, 0.45)), url("../images/profile/Banner-profile.jpg") !important; }

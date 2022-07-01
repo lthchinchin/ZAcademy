@@ -1,0 +1,70 @@
+/** * learnpress lesson custom css * * Important but you can change it as per your design */
+html,
+body {
+	overflow: unset !important;
+}
+
+.learn-press-breadcrumb {
+	margin: 0 auto 0 auto !important;
+	padding: 20px 0 !important;
+}
+
+.learn-press-breadcrumb,
+.lp-content-area {
+	width: 1296px !important;
+}
+
+#learn-press-course-curriculum .section-desc {
+	margin: 10px 0 0 !important;
+}
+
+.learn-press-courses[data-layout=list] .lp_course {
+	border-radius: 8px !important;
+	border: none !important;
+	background: $lightgray-color;
+}
+
+.learn-press-courses[data-layout=grid] .course-item {
+	background: $lightgray-color;
+	border-radius: 8px !important;
+
+	.course-content {
+		border: none !important;
+	}
+}
+
+// div#learn-press-course {
+// 	display: flex;
+// 	margin-left: -20px;
+// }
+
+// div#learn-press-course-curriculum-custom,
+// #learn-press-content-item-custom {
+// 	margin-left: 20px;
+// }
+
+// div#learn-press-course-curriculum-custom {
+// 	flex-basis: 35%;
+// }
+
+// #learn-press-content-item-custom div#course-item-content-header-custom {
+// 	display: flex;
+// 	justify-content: space-between;
+// 	margin-bottom: 30px;
+// }
+
+// /* * Not Important * * Some inner content design but you should be fine now adding whatever you want in your design */
+// #course-item-content-header-custom .course-item-search form {
+// 	display: flex;
+// }
+
+// #course-item-content-header-custom .course-item-search button:after {
+// 	font-family: fontawesome;
+// 	content: "\f002";
+// }
+
+// #course-item-content-header-custom .course-title {
+// 	margin: 0;
+// 	padding: 0;
+// 	font-size: 1em;
+// }
