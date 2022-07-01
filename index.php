@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <main class="home">
-    <section class="section-margin-bottom home_banner">
+    <section class="section-margin-bottom home_banner mt-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-9">
@@ -80,8 +80,7 @@
 
                         <div class="col-4">
                             <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
                                 <div class="text-center course_name">
                                     Khóa học 1
                                 </div>
@@ -89,8 +88,7 @@
                         </div>
                         <div class="col-4">
                             <div class="course">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course"
-                                    class="course_img">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/home/Group3.png" alt="Course" class="course_img">
                                 <div class="text-center course_name">
                                     Khóa học 1
                                 </div>
@@ -170,8 +168,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <a href="http://">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png"
-                                        class="mentor-img" alt="Mentor">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
                                 </a>
                             </div>
                             <div class="col-8">
@@ -181,18 +178,15 @@
                                         <div class="job">Giảng viên khoa Công nghệ thông tin - Đại Học Đà Nẵng</div>
                                         <ul class="d-flex flex-wrap list-achievement">
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                         </ul>
@@ -225,8 +219,7 @@
                         <div class="row">
                             <div class="col-4">
                                 <a href="http://">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png"
-                                        class="mentor-img" alt="Mentor">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/home/people.png" class="mentor-img" alt="Mentor">
                                 </a>
                             </div>
                             <div class="col-8">
@@ -236,18 +229,15 @@
                                         <div class="job">Giảng viên khoa Công nghệ thông tin - Đại Học Đà Nẵng</div>
                                         <ul class="d-flex flex-wrap list-achievement">
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                             <li class="d-flex achievement">
-                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png"
-                                                    alt="Image Achievement" class="achievement-img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/achievement.png" alt="Image Achievement" class="achievement-img">
                                                 <div class="achievement-text">7+ năm Computer Science</div>
                                             </li>
                                         </ul>
@@ -297,8 +287,7 @@
             <div class="row g-4">
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -306,8 +295,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -315,8 +303,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -324,8 +311,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -333,8 +319,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -342,8 +327,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -351,8 +335,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -360,8 +343,7 @@
                 </div>
                 <div class="col-3">
                     <div class="text-center utility">
-                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png"
-                            alt="Utility">
+                        <img class='img' src="<?php bloginfo('template_url'); ?>/assets/images/home/utility.png" alt="Utility">
                         <div class="name">
                             Chủ động thời gian
                         </div>
@@ -401,7 +383,7 @@
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/quotes.png" alt="Quotes">
                             </div>
                         </div>
-                        <div class="comment-body">
+                        <div class="comment-body line-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt tempora, soluta
                             odit hic dicta, temporibus quis rerum earum vel iste delectus totam sint voluptas dolorem
                             iure blanditiis deserunt molestias?
@@ -428,7 +410,7 @@
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/quotes.png" alt="Quotes">
                             </div>
                         </div>
-                        <div class="comment-body">
+                        <div class="comment-body line-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt tempora, soluta
                             odit hic dicta, temporibus quis rerum earum vel iste delectus totam sint voluptas dolorem
                             iure blanditiis deserunt molestias?
@@ -455,7 +437,7 @@
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/quotes.png" alt="Quotes">
                             </div>
                         </div>
-                        <div class="comment-body">
+                        <div class="comment-body line-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt tempora, soluta
                             odit hic dicta, temporibus quis rerum earum vel iste delectus totam sint voluptas dolorem
                             iure blanditiis deserunt molestias?
@@ -482,7 +464,7 @@
                                 <img src="<?php bloginfo('template_url'); ?>/assets/images/quotes.png" alt="Quotes">
                             </div>
                         </div>
-                        <div class="comment-body">
+                        <div class="comment-body line-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt tempora, soluta
                             odit hic dicta, temporibus quis rerum earum vel iste delectus totam sint voluptas dolorem
                             iure blanditiis deserunt molestias?

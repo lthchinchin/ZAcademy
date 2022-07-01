@@ -11,9 +11,8 @@
         }
 
         .footer-logo {
-            padding-bottom: 24px;
-            // border-bottom: 1px solid #fff;
-            margin-bottom: 48px;
+            position: relative;
+            bottom: 30px;
 
             img {
                 // width: 320px;
@@ -66,6 +65,7 @@
 
     &-copyright {
         background: $text-dark-color;
+        // background: tan;
         color: #fff;
         padding: 8px 0;
 

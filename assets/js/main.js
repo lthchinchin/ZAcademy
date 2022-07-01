@@ -5,12 +5,12 @@
 			$(".owl-carousel.banner-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:1,
-					loop:true,
-					margin:24,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					items: 1,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}
@@ -19,14 +19,61 @@
 			$(".owl-carousel.mentor-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:1,
-					loop:true,
+					items: 1,
+					loop: true,
 					margin: 24,
 					dots: false,
-					nav:true,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
+				});
+			});
+		}
+
+		if ($(".owl-carousel.mentor-introduce").length) {
+			$(".owl-carousel.mentor-introduce").each(function () {
+				// var owl = $(".owl-carousel");
+				$(this).owlCarousel({
+					items: 4,
+					loop: true,
+					margin: 24,
+					dots: false,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true,
+					responsive: {
+						0: {
+							items: 3,
+						},
+						768: {
+
+						}
+					},
+				});
+			});
+		}
+		if ($(".owl-carousel.highlight-sources").length) {
+			$(".owl-carousel.highlight-sources").each(function () {
+				// var owl = $(".owl-carousel");
+				$(this).owlCarousel({
+					items: 4,
+					loop: true,
+					margin: 24,
+					dots: false,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true,
+					responsive: {
+						0: {
+							items: 3,
+						},
+						768: {
+
+						}
+					},
 				});
 			});
 		}
@@ -35,12 +82,12 @@
 			$(".owl-carousel.comment-home").each(function () {
 				// var owl = $(".owl-carousel");
 				$(this).owlCarousel({
-					items:3,
-					loop:true,
-					margin:24,
-					autoplay:true,
-					autoplayTimeout:4000,
-					autoplayHoverPause:true
+					items: 3,
+					loop: true,
+					margin: 24,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true
 				});
 			});
 		}
