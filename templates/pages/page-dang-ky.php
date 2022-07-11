@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 
 <main class="page-register">
-    <div class="container">
+    <div class="container uf">
         <div class="box">
             <div class="row">
                 <div class="col-7">
@@ -223,9 +223,9 @@
 
 
     //  Acccount Biti
-    let ACCOUNT_SID = 'AC4e05773beb21d400a3d931934cafb099';
-    let AUTH_TOKEN = '59c6fe8dd231769d8984b0b8442b2f24';
-    let SERVICE_SID = 'MG42c43ebd5b879310cec17519ecce8c4c';
+    let ACCOUNT_SID = 'AC9de427301f15856c3ec3e43b73c14132';
+    let AUTH_TOKEN = 'e3bb42b9e7b6009b72b80c41b33d795b';
+    let SERVICE_SID = 'VAe0d69ee518d8c2f90ff259de4d1d12de';
     let CHANNEL = 'sms';
 
 
